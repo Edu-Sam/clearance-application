@@ -20,7 +20,7 @@
 
  body{
 
- 	background: rgba(144,238,144,1);
+ 	background: #fafafa;
  }
 
  
@@ -35,32 +35,35 @@
 
 <div class="container col-sm-4 rounded-sm shadow" style="background: white;height: 500px; margin-top: 100px;">
 <div class="row">
-<div class="container bg-success text-white" style="height: 80px;width: 100%;">
- <h4>Login</h4>	
+<div class="container bg-white text-white pl-5 pt-3" style="width: 100%;margin-left: 23%;">
+<img src="tuk1.png" style="width: 100px;height: 100px;"/>
+ <h6 class="pt-2 pl-0 text-dark">Sign in to your Account</h6>	
 </div>
 </div>
+
+<hr style="margin-left: 15px;margin-right: 15px;color: #6d7fcc;">
 
 <div class="row">
 
-<div class="container m-4">
+<div class="container mt-2">
 <form action="login.php" method="POST">
 
-<div class="form-group">
+<div class="form-group mx-5">
 <label for="Username">Username:</label>
 <input type="text" class="form-control" placeholder="Enter Username" name="username_text" id="username_text">
 
 </div>
 
-<div class="form-group">
+<div class="form-group mx-5">
     <label for="pwd">Password:</label>
     <input type="password" class="form-control" placeholder="Enter password" name="password_text" id="password_text">
   </div>
-  <div class="form-group form-check">
+  <div class="form-group form-check mx-5">
     <label class="form-check-label">
       <input class="form-check-input" type="checkbox"> Remember me
     </label>
   </div>
-  <button type="submit" class="btn btn-primary" name="Submit_login" id="Submit_login">Submit</button>
+  <button type="submit" class="btn btn-primary mx-5" name="Submit_login" id="Submit_login">Submit</button>
 
 </form>
 </div>
